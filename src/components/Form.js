@@ -10,8 +10,8 @@ const Form = ({checkLogin}) => {
 e.preventDefault();
 console.log(input1,input2);
 if (input1.length>0 && input2.length>0) {
-    checkLogin('true');   
-    document.getElementById('form').innerHTML="You are Logged in!";
+    checkLogin(true);   
+   // document.getElementById('form').innerHTML="You are Logged in!";
 }
 
     }
