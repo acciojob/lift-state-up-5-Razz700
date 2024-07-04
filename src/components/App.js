@@ -9,11 +9,8 @@ const App = () => {
   return (
     <div>
       <h1>Parent Component</h1>
-     {!isLoggedIn && <Form checkLogin={setisLoggedIn}/>} 
-      {
-       isLoggedIn && <p>You are Logged in!</p>
-      }
-      
+     <Form checkLogin={setisLoggedIn}
+     isLoggedIn={isLoggedIn}/>
         {/* Do not remove the main div */
         //hello
         }
