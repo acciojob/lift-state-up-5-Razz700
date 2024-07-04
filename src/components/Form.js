@@ -22,7 +22,7 @@ if (input1.length>0 && input2.length>0) {
         <input type='text' onChange={handleChange} value={input1} required/><br/>
         <label>Password:</label>
         <input type='password'onChange={handlePassword} value={input2} required/><br/>
-        <input type='submit' value={'Login'} onClick={handleSubmit}/>
+        <button type='submit' onClick={handleSubmit}>Login</button>
         </form>   
     </div>
   )
