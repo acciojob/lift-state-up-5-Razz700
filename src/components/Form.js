@@ -25,7 +25,7 @@ if (input1.length>0 && input2.length>0) {
         <button type='submit' onClick={handleSubmit}>Login</button>
         </form> } 
         {
-       isLoggedIn && <p>You are Logged in!</p>
+       isLoggedIn && <p>You are logged in!</p>
       }
     </div>
   )
